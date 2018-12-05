@@ -1,0 +1,72 @@
+.table {
+	display:table;
+	width : 95%;
+	margin: 0 0 30px 0;
+	padding : 1em;
+	font-size: 95%;
+	border: 1px solid #3D8CB8;
+	color: #666;
+	background : #F3F3F3;
+}
+.theader {
+    display:table-header-group;
+    font-weight:bold;
+    padding: 3px 2px;
+}
+.row {
+    display:table-row;
+    padding: 3px 2px;
+}
+.rowGroup {
+    display:table-row-group;
+}
+.cell {
+    display:table-cell;
+    width:25%;
+    font-size: 15px;
+ 	font-weight: bold;  	
+  	border-bottom: 1px solid #C0C0C0;
+}
+
+.main {
+background: #EEF1F2;
+background: -moz-linear-gradient(top, #EEF1F2 0%, #FFFFFF 11%, #F6F6F6 100%);
+background: -webkit-linear-gradient(top, #EEF1F2 0%, #FFFFFF 11%, #F6F6F6 100%);
+background: linear-gradient(to bottom, #EEF1F2 0%, #FFFFFF 11%, #F6F6F6 100%);
+}
+
+.header {
+background: #D9F1F2;
+background: -moz-linear-gradient(top, #D9F1F2 0%, #E3F7FF 11%, #F6F6F6 100%);
+background: -webkit-linear-gradient(top, #D9F1F2 0%, #E3F7FF 11%, #F6F6F6 100%);
+background: linear-gradient(to bottom, #D9F1F2 0%, #E3F7FF 11%, #F6F6F6 100%);
+width:100%;
+}
+
+a {
+text-decoration: underline;
+color: #184162;
+background: inherit;
+}
+a:hover {
+text-decoration: none;
+color: #8EBBE1;
+background:  inherit;
+}
+
+textarea {
+	outline: none;
+	-moz-appearance: none;
+	border: 1px solid #999;
+	overflow: auto;
+	font-family: Verdana;
+ }
+ 
+h1, h2, h3 {
+	font-weight:bold;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #507A9B;
+}
